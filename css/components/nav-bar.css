@@ -13,6 +13,22 @@
   justify-content: space-between;
 }
 
-.nav__list {
+.nav__link {
   color: #2e363e;
+  position: relative;
+}
+
+.nav__notification {
+  background-color: tomato;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+  position: absolute;
+  left: 15px;
+  bottom: 15px;
 }
