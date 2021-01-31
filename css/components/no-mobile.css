@@ -1,0 +1,19 @@
+#no-mobile {
+  position: absolute;
+  z-index: 99;
+  height: 100vh;
+  width: 100vw;
+  background-color: var(--yellow);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  top: 0px;
+} /* 화면넓이가 645px이거나 더크면 화면이 보여짐 */
+
+@media screen and (max-width: 645px) {
+  #no-mobile {
+    display: none;
+  }
+}
+/* 화면 최대넓이가 645px 미만이면 no-mobile이 안보임*/
