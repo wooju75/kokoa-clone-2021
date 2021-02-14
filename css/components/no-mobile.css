@@ -14,7 +14,7 @@
 .broken-heart {
   position: absolute;
   top: 250px;
-  animation: HeartAni 0.8s infinite ease-in-out;
+  animation: ShakeAni 0.8s infinite ease-in-out;
 }
 
 .broken-heart img {

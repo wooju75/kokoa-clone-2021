@@ -1,4 +1,4 @@
-@keyframes HeartAni {
+@keyframes ShakeAni {
   16.65% {
     transform: translateX(8px);
   }
@@ -16,5 +16,33 @@
   }
   100% {
     transform: translateX(0);
+  }
+}
+
+@keyframes FlowerRolling {
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
+
+@keyframes ChatAniYou {
+  from {
+    transform: translateX(-500px);
+    opacity: 0;
+  }
+  to {
+    transform: none;
+    opacity: 1;
+  }
+}
+
+@keyframes ChatAniMe {
+  from {
+    transform: translateX(1000px);
+    opacity: 0;
+  }
+  to {
+    transform: none;
+    opacity: 1;
   }
 }
