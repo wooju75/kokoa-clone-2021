@@ -1,15 +1,25 @@
 #no-mobile {
-  position: absolute;
+  position: fixed;
   z-index: 99;
   height: 100vh;
   width: 100vw;
-  background-color: var(--yellow);
+  background-color: #fdf3f4;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 32px;
   top: 0px;
 } /* 화면넓이가 645px이거나 더크면 화면이 보여짐 */
+
+.broken-heart {
+  position: absolute;
+  top: 250px;
+  animation: HeartAni 0.8s infinite ease-in-out;
+}
+
+.broken-heart img {
+  width: 130px;
+}
 
 @media screen and (max-width: 645px) {
   #no-mobile {
