@@ -28,8 +28,10 @@
 
 body {
   color: #2e363e;
-  font-family: "Open Sans", sans-serif;
+  font-family: "UhBee Kang-Ja";
   cursor: url(../cursor/nat991.cur), auto;
+  background-color: #fdf3f4;
+  height: 100vh;
 }
 
 .main-screen {
