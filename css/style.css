@@ -11,6 +11,7 @@
 @import "components/icon-row.css";
 @import "components/alt-screen-header.css";
 @import "components/no-mobile.css";
+@import "components/ani.css";
 
 /* Screens */
 @import "screens/login.css";
@@ -20,9 +21,15 @@
 @import "screens/settings.css";
 @import "screens/chat.css";
 
+@font-face {
+  src: url(../fonts/UhBee\ Kang-Ja.ttf);
+  font-family: "UhBee Kang-Ja";
+}
+
 body {
   color: #2e363e;
   font-family: "Open Sans", sans-serif;
+  cursor: url(../cursor/nat991.cur), auto;
 }
 
 .main-screen {
