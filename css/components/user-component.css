@@ -1,5 +1,6 @@
 .user-component {
   justify-content: space-between;
+  margin-bottom: 20px;
 }
 
 .user-component,
@@ -22,8 +23,9 @@
 
 .user-component__subtitle {
   margin-top: 8px;
-  font-size: 17px;
+  font-size: 14px;
   color: var(--main-color);
+  line-height: 20px;
 }
 
 .user-component__avatar--xl {
@@ -62,4 +64,24 @@
   color: tomato;
   margin-top: 8px;
   margin-left: 6px;
+}
+
+.user-component__music {
+  border: 2px solid rgb(78, 211, 100);
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.user-component__music:hover {
+  background-color: rgb(78, 211, 100, 0.2);
+}
+
+.user-component__music-info {
+  font-size: 14px;
+}
+
+.user-component__music-info i {
+  color: rgb(78, 211, 100);
+  font-size: 16px;
+  cursor: pointer;
 }
