@@ -1,5 +1,5 @@
 #chat-screen {
-  background-color: #abc1d1;
+  background-color: #fdf3f4;
   height: 500vh;
 }
 
@@ -9,7 +9,7 @@
   width: 100%;
   box-sizing: border-box;
   top: 0px;
-  background-color: #abc1d1;
+  background-color: #fdf3f4;
 }
 
 #chat-screen .status-bar {
@@ -41,8 +41,8 @@
 }
 
 .chat__timestamp {
-  color: whitesmoke;
-  background-color: #92a4b2;
+  color: var(--pink);
+  background-color: rgb(245, 167, 167, 0.1);
   padding: 15px;
   border-radius: 25px;
   font-size: 14px;
@@ -70,6 +70,7 @@
 .message__info {
   display: flex;
   align-items: flex-end;
+  position: relative;
 }
 
 .message__bubble {
@@ -79,6 +80,9 @@
   border-top-left-radius: 0px;
   margin-right: 5px;
   font-size: 18px;
+  color: #000000;
+  border: 2px solid var(--pink);
+  line-height: 24px;
 }
 
 .message__time,
@@ -92,15 +96,123 @@
 }
 
 .message-row--own .message__bubble {
-  background-color: var(--yellow);
+  background-color: var(--pink);
   border-top-right-radius: 0px;
   border-top-left-radius: 15px;
   margin-right: 0px;
   margin-left: 5px;
+  color: white;
 }
 
 .message-row--own .message__info {
   flex-direction: row-reverse;
+}
+
+.message-chat-me1 {
+  transform: translateX(1000px);
+  animation: ChatAniMe 1s ease-in-out forwards;
+}
+.message-chat-me2 {
+  transform: translateX(1000px);
+  animation: ChatAniMe 1s ease-in-out forwards;
+  animation-delay: 0.4s;
+}
+.message-chat-me3 {
+  transform: translateX(1000px);
+  animation: ChatAniMe 1s ease-in-out forwards;
+  animation-delay: 0.8s;
+}
+.message-chat-me4 {
+  transform: translateX(1000px);
+  animation: ChatAniMe 1s ease-in-out forwards;
+  animation-delay: 1.2s;
+}
+.message-chat-me5 {
+  transform: translateX(1000px);
+  animation: ChatAniMe 1s ease-in-out forwards;
+  animation-delay: 1.6s;
+}
+.message-chat-me6 {
+  transform: translateX(1000px);
+  animation: ChatAniMe 1s ease-in-out forwards;
+  animation-delay: 2s;
+}
+.message-chat-me7 {
+  transform: translateX(1000px);
+  animation: ChatAniMe 1s ease-in-out forwards;
+  animation-delay: 2.4s;
+}
+.message-chat-me8 {
+  transform: translateX(1000px);
+  animation: ChatAniMe 1s ease-in-out forwards;
+  animation-delay: 2.8s;
+}
+.message-chat-me9 {
+  transform: translateX(1000px);
+  animation: ChatAniMe 1s ease-in-out forwards;
+  animation-delay: 3.2s;
+}
+.message-chat-me10 {
+  transform: translateX(1000px);
+  animation: ChatAniMe 1s ease-in-out forwards;
+  animation-delay: 3.6s;
+}
+
+.message__num {
+  position: absolute;
+  right: 0;
+  top: 20px;
+  opacity: 0.8;
+}
+
+.message-chat-you1 {
+  transform: translateX(-500px);
+  animation: ChatAniYou 1s ease-in-out forwards;
+}
+.message-chat-you2 {
+  transform: translateX(-500px);
+  animation: ChatAniYou 1s ease-in-out forwards;
+  animation-delay: 0.4s;
+}
+.message-chat-you3 {
+  transform: translateX(-500px);
+  animation: ChatAniYou 1s ease-in-out forwards;
+  animation-delay: 0.8s;
+}
+.message-chat-you4 {
+  transform: translateX(-500px);
+  animation: ChatAniYou 1s ease-in-out forwards;
+  animation-delay: 1.2s;
+}
+.message-chat-you5 {
+  transform: translateX(-500px);
+  animation: ChatAniYou 1s ease-in-out forwards;
+  animation-delay: 1.6s;
+}
+.message-chat-you6 {
+  transform: translateX(-500px);
+  animation: ChatAniYou 1s ease-in-out forwards;
+  animation-delay: 2s;
+}
+.message-chat-you7 {
+  transform: translateX(-500px);
+  animation: ChatAniYou 1s ease-in-out forwards;
+  animation-delay: 2.4s;
+}
+.message-chat-you8 {
+  transform: translateX(-500px);
+  animation: ChatAniYou 1s ease-in-out forwards;
+  animation-delay: 2.8s;
+}
+.message-chat-you9 {
+  transform: translateX(-500px);
+  animation: ChatAniYou 1s ease-in-out forwards;
+  animation-delay: 3.2s;
+}
+.message-chat-you10 {
+  transform: translateX(-500px);
+  animation: ChatAniYou 1s ease-in-out forwards;
+  animation-delay: 3.6s;
 }
 
 .reply {
