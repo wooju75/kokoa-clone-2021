@@ -46,7 +46,7 @@
 
 #splash-screen {
   background-color: var(--pink);
-  position: absolute;
+  position: fixed;
   height: 100vh; /* 화면높이의 100% */
   width: 100vw; /* 화면넓이의 100% */
   top: 0;
