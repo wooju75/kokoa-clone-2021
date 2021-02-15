@@ -1,12 +1,12 @@
 #chat-screen {
   background-color: #fdf3f4;
-  height: 500vh;
+  height: 100vh;
 }
 
 #chat-screen .alt-header,
 #chat-screen .status-bar {
   position: fixed;
-  width: 100%;
+  width: 100vw;
   box-sizing: border-box;
   top: 0px;
   background-color: #fdf3f4;
