@@ -137,26 +137,6 @@
   animation: ChatAniMe 1s ease-in-out forwards;
   animation-delay: 2s;
 }
-.message-chat-me7 {
-  transform: translateX(1000px);
-  animation: ChatAniMe 1s ease-in-out forwards;
-  animation-delay: 2.4s;
-}
-.message-chat-me8 {
-  transform: translateX(1000px);
-  animation: ChatAniMe 1s ease-in-out forwards;
-  animation-delay: 2.8s;
-}
-.message-chat-me9 {
-  transform: translateX(1000px);
-  animation: ChatAniMe 1s ease-in-out forwards;
-  animation-delay: 3.2s;
-}
-.message-chat-me10 {
-  transform: translateX(1000px);
-  animation: ChatAniMe 1s ease-in-out forwards;
-  animation-delay: 3.6s;
-}
 
 .message__num {
   position: absolute;
@@ -193,26 +173,6 @@
   transform: translateX(-500px);
   animation: ChatAniYou 1s ease-in-out forwards;
   animation-delay: 2s;
-}
-.message-chat-you7 {
-  transform: translateX(-500px);
-  animation: ChatAniYou 1s ease-in-out forwards;
-  animation-delay: 2.4s;
-}
-.message-chat-you8 {
-  transform: translateX(-500px);
-  animation: ChatAniYou 1s ease-in-out forwards;
-  animation-delay: 2.8s;
-}
-.message-chat-you9 {
-  transform: translateX(-500px);
-  animation: ChatAniYou 1s ease-in-out forwards;
-  animation-delay: 3.2s;
-}
-.message-chat-you10 {
-  transform: translateX(-500px);
-  animation: ChatAniYou 1s ease-in-out forwards;
-  animation-delay: 3.6s;
 }
 
 .reply {
@@ -263,7 +223,7 @@
 }
 
 .reply__column button {
-  background-color: var(--yellow);
+  background-color: var(--pink);
   border: none;
   width: 36px;
   height: 36px;
