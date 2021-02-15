@@ -39,7 +39,8 @@ body {
 
 .friends-screen__bottom-space,
 .find-screen__bottom-space,
-.more-suggestions__bottom-space {
+.more-suggestions__bottom-space,
+.chats__bottom-space {
   width: 100%;
   height: 90px;
 }
