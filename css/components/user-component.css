@@ -3,6 +3,30 @@
   margin-bottom: 20px;
 }
 
+.user-swing1 {
+  animation: Swing 0.8s ease-in-out;
+}
+.user-swing2 {
+  animation: Swing 0.8s ease-in-out;
+  animation-delay: 0.3s;
+}
+.user-swing3 {
+  animation: Swing 0.8s ease-in-out;
+  animation-delay: 0.6s;
+}
+.user-swing4 {
+  animation: Swing 0.8s ease-in-out;
+  animation-delay: 0.9s;
+}
+.user-swing5 {
+  animation: Swing 0.8s ease-in-out;
+  animation-delay: 1.2s;
+}
+.user-swing6 {
+  animation: Swing 0.8s ease-in-out;
+  animation-delay: 1.5s;
+}
+
 .user-component,
 .user-component__column:first-child {
   display: flex;
